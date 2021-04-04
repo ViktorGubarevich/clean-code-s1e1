@@ -35,7 +35,7 @@
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .task-item {
@@ -115,7 +115,6 @@ label[for="new-task"] {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -137,7 +136,7 @@ l.tasks i>label {
 }
 
 .tasks li>input[type="text"] {
-    width: 226px
+    width: 226px;
 }
 
 .delete img {
@@ -157,12 +156,12 @@ l.tasks i>label {
 
 /* Edit Task */
 .tasks li input[type=text] {
-    display: none
+    display: none;
 }
 
 .tasks li.edit-mode input[type=text] {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .tasks li.edit-mode label {
